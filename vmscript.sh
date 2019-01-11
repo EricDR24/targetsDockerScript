@@ -13,6 +13,6 @@ docker pull bkimminich/juice-shop
 echo pulled juice-shop
 
 #Juice-Shop docker container
-docker run -p 80:80 bkimminich/juice-shop
+docker run -p 3000:3000 bkimminich/juice-shop
 echo Juice-Shop is up
 
